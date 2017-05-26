@@ -1,11 +1,11 @@
 export default {
   en: {
-    dayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-    monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    dayNames: ["Пон", "Втр", "Срд", "Чет", "Пят", "Суб", "Вск"],
+    monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
     format: 'MM/yyyy',
     fullFormat: 'dd/MM/yyyy',
-    dayEventsTitle: 'All Events',
-    notHaveEvents: 'Not Have Events'
+    dayEventsTitle: 'Все мероприятия',
+    notHaveEvents: 'Нет мероприятий'
   },
   zh: {
     dayNames: ["日", "一", "二", "三", "四", "五", "六"],
@@ -30,13 +30,5 @@ export default {
     fullFormat: 'dd/MM/yyyy',
     dayEventsTitle: 'Todos os eventos',
     notHaveEvents: 'Nenhum evento'
-  },
-  ru: {
-    dayNames: ["Пон", "Втр", "Срд", "Чет", "Пят", "Суб", "Вск"],
-    monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
-    format: 'MM/yyyy',
-    fullFormat: 'dd/MM/yyyy',
-    dayEventsTitle: 'Все мероприятия',
-    notHaveEvents: 'Нет мероприятий'
   }
 }
