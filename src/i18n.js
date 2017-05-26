@@ -30,5 +30,13 @@ export default {
     fullFormat: 'dd/MM/yyyy',
     dayEventsTitle: 'Todos os eventos',
     notHaveEvents: 'Nenhum evento'
+  },
+  ru: {
+    dayNames: ["Пон", "Втр", "Срд", "Чет", "Пят", "Суб", "Вск"],
+    monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+    format: 'MM/yyyy',
+    fullFormat: 'dd/MM/yyyy',
+    dayEventsTitle: 'Все мероприятия',
+    notHaveEvents: 'Нет мероприятий'
   }
 }
