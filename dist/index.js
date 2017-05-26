@@ -666,7 +666,7 @@ var inBrowser = typeof window !== 'undefined';
           status = void 0,
           tempArr = [],
           tempItem = void 0;
-      if (this.calendar.options.locale === 'es') {
+      if (this.calendar.options.locale === 'en') {
         startTimestamp = startTimestamp + 1000 * 60 * 60 * 24;
       }
       for (var i = 0; i < 42; i++) {
