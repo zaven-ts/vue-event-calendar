@@ -1,16 +1,5 @@
 <template>
-  <div class="events-wrapper" :style="bgColor">
-    <h2 class="date">
-      {{dayEventsTitle}}
-    </h2>
-    <div class="cal-events">
-      <slot>
-        <div v-for="(event, index) in events" class="event-item">
-          <cal-event-item :event="event" :index="index" :locale="locale"></cal-event-item>
-        </div>
-      </slot>
-    </div>
-  </div>
+  
 </template>
 
 <script>
